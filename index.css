@@ -1,0 +1,98 @@
+/* 
+@BKingStudio || 
+*/
+/* Navbar styling */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+    background-color: #a3a3ff;
+  }
+  
+#connectbtn{
+  margin-left: 80%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 70% ;
+  height: 70% ;
+}
+#connectbtn:hover{
+  background-color: black;
+  color: aliceblue;
+}
+#logo{
+  width: 20%; 
+  height: 20%;
+}
+
+.container_1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+ 
+}
+
+#balancebtn{
+  height: 50px;
+  width: 100px;
+  margin-right: 18px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+#balancebtn:hover{
+  background-color: black;
+  color: aliceblue;
+}
+
+
+#withdrawbtn{
+  height: 50px;
+  width: 100px;
+  margin-right: 18px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+#withdrawbtn:hover{
+  background-color: black;
+  color: aliceblue;
+}
+
+.container_2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#eth{
+  margin-right: 10px;
+}
+
+.container_3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fundbtn{
+  height: 50px;
+  width: 100px;
+  margin-right: 18px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+#fundbtn:hover{
+  background-color: black;
+  color: aliceblue;
+}
